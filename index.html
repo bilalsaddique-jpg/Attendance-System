@@ -11,7 +11,7 @@
   <div class="bg-white p-8 rounded-2xl shadow-lg w-96 text-center">
     <h2 class="text-2xl font-bold mb-4">BGA Attendance System</h2>
 
-    <input id="name" type="text" placeholder="Enter Name"
+    <input id="name" type="text" placeholder="Enter Full Name"
       class="w-full p-2 border rounded mb-4"/>
 
     <div class="flex gap-3">
@@ -36,7 +36,7 @@ function sendData(action) {
   const name = document.getElementById("name").value;
 
   if (!name) {
-    alert("Enter Full Name first");
+    alert("Enter name first");
     return;
   }
 
